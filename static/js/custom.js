@@ -9,7 +9,9 @@
 
   // Background Image
   $('[data-bg-img]').each(function() {
-    $(this).css('background-image', 'url(' + $(this).data("bg-img") + ')');
+    $(this).css({
+      'background-image': 'url(' + $(this).data("bg-img") + ')'
+    });
   });
 
   // Off Canvas JS
