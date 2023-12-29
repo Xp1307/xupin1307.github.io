@@ -5007,7 +5007,7 @@ iframe {
 }
 
 .award-area {
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   padding: 95px 0 40px;
 }
 @media only screen and (max-width: 991px) {
@@ -5062,7 +5062,7 @@ iframe {
   }
 }
 .award-content .award-item .content {
-  padding-left: 303px;
+  padding-left: 200px;
 }
 @media only screen and (max-width: 1199px) {
   .award-content .award-item .content {
