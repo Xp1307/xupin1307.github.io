@@ -84,6 +84,23 @@
       fadeEffect: { crossFade: true }
     });
 
+    var gallerySlider = new Swiper('.intro-gallery', {
+      slidesPerView : 1,
+      speed: 1000,
+      loop: true,
+      spaceBetween : 10,
+      autoplay: {
+          delay: 7500,
+          disableOnInteraction: true,
+      },      
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+      effect: 'fade',
+      fadeEffect: { crossFade: false }
+    });
+
     var brandLogoSlider = new Swiper('.brand-logo-slider-container', {
       slidesPerView : 5,
       loop: true,
